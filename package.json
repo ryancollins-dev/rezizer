@@ -11,10 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^21.1.0",
-    "resize-img": "^2.0.0",
-    "toastify-js": "^1.12.0",
-    "minimist": ">=1.2.7",
+    "got": ">=12.5.1",
     "jpeg-js": ">=0.4.4",
-    "got": ">=12.5.1"
+    "minimist": ">=1.2.7",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
   }
 }

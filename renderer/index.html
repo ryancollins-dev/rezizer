@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
     <script src="js/renderer.js" defer></script>
     <title>Image Rezizer</title>
   </head>
@@ -15,9 +18,9 @@
     >
       <div class="flex flex-col w-full items-center justify-center bg-grey-lighter">
         <label
-          class="w-64 flex flex-col items-center px-4 py-7 bg-white text-gray-500 rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:text-teal-800"
+          class="w-64 flex flex-col items-center px-4 py-7 bg-white text-gray-500 rounded-lg shadow-lg uppercase border border-blue cursor-pointer hover:text-blue-500"
         >
-          <img src="./images/logo.svg" width="32" />
+          <img src="./images/logo.png" width="32" />
           <span class="mt-2 leading-normal">Select an image to resize</span>
           <input id="img" type="file" class="hidden" />
         </label>
